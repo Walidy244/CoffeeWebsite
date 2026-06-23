@@ -119,7 +119,7 @@ function renderCart(lang) {
               A9.818 9.818 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12
               17.43 21.818 12 21.818z"/>
           </svg>
-          ${t.payWhatsapp || 'PAY VIA WHATSAPP'}
+          ${t.payWhatsapp || 'ORDER VIA WHATSAPP'}
         </button>
       </a>
     </div>`;
