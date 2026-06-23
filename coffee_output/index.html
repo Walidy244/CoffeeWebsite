@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>بن ع ذوقك — Coffee to Your Taste</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="announcement-bar">
+    <p>DELIVERY ONLY AVAILABLE THROUGH BEIRUT</p>
+  </div>
+
+  <header class="hero-Navbar">
+    <div class="navbar-left"></div>
+
+    <div class="hero-navbar-title">
+      <h1>بن ع ذوقك</h1>
+      <span class="hero-navbar-subtitle">COFFEE TO YOUR TASTE</span>
+    </div>
+
+    <div class="navbar-right">
+      <a href="cart.html" style="display:flex;">
+        <button id="cartButton">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="cart-label">CART</span>
+          <span class="cart-badge" id="cart-badge">0</span>
+        </button>
+      </a>
+      <button id="lang-toggle" class="lang-toggle-btn">عربي</button>
+    </div>
+  </header>
+
+  <hr class="divider">
+
+  <nav>
+    <ul class="nav-links">
+      <a href="#home"><li id="home-link">Home</li></a>
+      <a href="#shop"><li id="shop-link">Shop</li></a>
+      <a href="#contact"><li id="contact-link">Contact Us</li></a>
+    </ul>
+  </nav>
+
+  <div class=".hero-coffee-section" id="home">
+    <img src="img/hero-coffee.jpeg" class="hero-coffee-image" alt="Hero coffee">
+    <div class="steam-layer" aria-hidden="true">
+      <span class="steam steam-1"></span>
+      <span class="steam steam-2"></span>
+      <span class="steam steam-3"></span>
+      <span class="steam steam-4"></span>
+      <span class="steam steam-5"></span>
+    </div>
+    <div class="overlay-text">
+      <h1>YOUR COFFEE, YOUR WAY</h1>
+      <p>Small-batch beans roasted for engineers, builders, and the perpetually on-call.</p>
+      <button onclick="document.getElementById('shop').scrollIntoView({ behavior: 'smooth' })">
+        SHOP COFFEE
+      </button>
+    </div>
+  </div>
+
+  <section class="choose-your-brew-section" id="shop">
+    <div>
+      <h1 id="choose-your-brew">Choose your brew</h1>
+    </div>
+    <div class="Arrow-and-dots">
+      <button class="arrow-button js-left-arrow">&#8249;</button>
+      <span class="active-dot" id="js-dot-1"></span>
+      <span class="dot" id="js-dot-2"></span>
+      <span class="dot" id="js-dot-3"></span>
+      <button class="arrow-button js-right-arrow">&#8250;</button>
+    </div>
+    <select class="mobile-weight-dropdown js-mobile-weight-dropdown">
+      <option value="200g">200g</option>
+      <option value="500g">500g</option>
+      <option value="1kg">1kg</option>
+    </select>
+  </section>
+
+  <main class="products-container"></main>
+
+  <hr class="footer-divider">
+
+  <section class="location-section" id="location">
+    <div class="location-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d828.1078423688737!2d35.50424799999998!3d33.8785426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f17e93a2428d7%3A0xe1d04447bb13fb94!2z2KjZhiDYuSDYsNmI2YLZgw!5e0!3m2!1sen!2slb!4v1782116739652!5m2!1sen!2slb" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="location-info">
+      <p class="location-label" id="loc-label">OUR LOCATION</p>
+      <h2 class="location-title" id="loc-title">FIND US IN<br>BEIRUT</h2>
+      <p class="location-desc" id="loc-desc">We roast and pack everything right here in Beirut. Local pickup available — or we deliver anywhere in the city.</p>
+
+      <div class="location-detail">
+        <i class="fa-solid fa-location-dot location-icon"></i>
+        <div>
+          <p class="location-detail-title" id="loc-city">Beirut, Lebanon</p>
+          <p class="location-detail-sub" id="loc-delivery">Local delivery &amp; pickup available</p>
+        </div>
+      </div>
+
+      <div class="location-detail">
+        <i class="fa-brands fa-whatsapp location-icon"></i>
+        <div>
+          <p class="location-detail-title">WhatsApp</p>
+          <p class="location-detail-sub" id="loc-wa-sub">Message us for orders &amp; inquiries</p>
+        </div>
+      </div>
+
+      <a href="https://wa.me/96178943061" target="_blank" rel="noopener">
+        <button class="chat-wa-btn">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span id="loc-wa-btn">CHAT ON WHATSAPP</span>
+        </button>
+      </a>
+    </div>
+  </section>
+
+  <hr class="footer-divider">
+
+  <footer class="footer-section" id="contact">
+    <div>
+      <div class="footer-logo">بن ع ذوقك</div>
+      <p class="footer-subtitle">Coffee to your taste.</p>
+    </div>
+    <div class="footer-middle-section">
+      <p class="hours">HOURS</p>
+      <p class="opening-time">Mon–Fri · 9am–5pm PST</p>
+      <p class="opening-time">Sat · 9am–5pm PST</p>
+    </div>
+    <div>
+      <p class="contact">CONTACT</p>
+      <p class="contact-info">Want a custom roast?</p>
+      <p class="contact-info">Contact us at +961 78 943 061 and we'll dial in a batch just for you.</p>
+    </div>
+  </footer>
+
+  <hr class="footer-divider-section">
+  <p class="footer-rights">© 2026 بن ع ذوقك</p>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>

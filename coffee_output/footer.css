@@ -1,0 +1,105 @@
+
+.footer-divider{
+  margin-top:120px;
+  height: 3.2px;         
+  background-color:black;
+}
+
+.footer-section{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right:150px;
+  padding-left:150px;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.footer-logo{
+  font-size: 24px;
+  font-weight: 900;
+  color:#111111;
+}
+.footer-subtitle{
+  font-size: 14px;
+  color: #555555bd;
+  margin-top: 5px;
+}
+.hours{
+  font-size: 16px;
+  font-weight: bold;
+  color:#111111;
+  margin-bottom:10px;
+}
+
+.opening-time{
+  font-size: 14px;
+  color: #555555bd;
+  margin-bottom: 5px;
+}
+
+.contact{
+  font-size: 16px;
+  font-weight: bold;
+  color:#111111;
+  margin-bottom:10px;
+}
+.contact-info{
+  font-size: 14px;
+  color: #555555bd;
+  margin-bottom: 5px;
+}
+
+
+.footer-divider-section{
+  margin-top:50px;
+  margin-bottom:20px;
+  height: 3.2px;         
+  background-color:black;
+}
+.footer-rights{
+  text-align: center;
+  font-size: 13px;
+  color: #494949;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+  .footer-section {
+    padding-right: 50px;
+    padding-left: 50px;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  .footer-logo {
+    font-size: 20px;
+  }
+  
+  .footer-subtitle {
+    font-size: 12px;
+    
+  }
+  
+  .hours, .contact {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .opening-time, .contact-info {
+    font-size: 12px;
+    
+    margin-bottom: 5px;
+  }
+}

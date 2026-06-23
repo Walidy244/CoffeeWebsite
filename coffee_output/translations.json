@@ -1,0 +1,106 @@
+{
+  "en": {
+    "announcement": "DELIVERY ONLY AVAILABLE THROUGH BEIRUT",
+    "subtitle": "COFFEE TO YOUR TASTE",
+    "cart": "CART",
+    "home": "Home",
+    "shop": "Shop",
+    "contactUs": "Contact Us",
+    "heroTitle": "YOUR COFFEE, YOUR WAY",
+    "heroDesc": "Small-batch beans roasted for engineers, builders, and the perpetually on-call.",
+    "shopCoffee": "SHOP COFFEE",
+    "chooseYourBrew": "Choose your brew",
+    "addToCart": "Add →",
+    "hours": "HOURS",
+    "monFri": "Mon–Fri · 9am–5pm PST",
+    "sat": "Sat · 9am–5pm PST",
+    "contact": "CONTACT",
+    "contactWant": "Want a custom roast?",
+    "contactInfo": "Contact us at +961 78 943 061 and we'll dial in a batch just for you.",
+    "rights": "© 2026 بن ع ذوقك",
+    "cartTitle": "Your Cart",
+    "continueShopping": "CONTINUE SHOPPING",
+    "emptyCart": "Your cart is empty",
+    "emptyDesc": "Looks like you haven't added any coffee yet. Let's fix that.",
+    "shopCoffeeBtn": "SHOP COFFEE",
+    "subtotal": "SUBTOTAL",
+    "payWhatsapp": "PAY VIA WHATSAPP",
+    "qty": "Qty",
+    "langToggle": "عربي",
+    "products": {
+      "Brazilian Medium": {
+        "roast": "MEDIUM ROAST"
+      },
+      "Brazilian Dark": {
+        "roast": "DARK ROAST"
+      },
+      "Brazilian Light": {
+        "roast": "LIGHT ROAST"
+      },
+      "Colombian Medium": {
+        "roast": "MEDIUM ROAST"
+      }
+    },
+    "locLabel": "OUR LOCATION",
+    "locTitle": "FIND US IN BEIRUT",
+    "locDesc": "We roast and pack everything right here in Beirut. Local pickup available — or we deliver anywhere in the city.",
+    "locCity": "Beirut, Lebanon",
+    "locDelivery": "Local delivery & pickup available",
+    "locWaSub": "Message us for orders & inquiries",
+    "locWaBtn": "CHAT ON WHATSAPP"
+  },
+  "ar": {
+    "announcement": "التوصيل متاح في بيروت فقط",
+    "subtitle": "قهوة على ذوقك",
+    "cart": "السلة",
+    "home": "الرئيسية",
+    "shop": "المتجر",
+    "contactUs": "تواصل معنا",
+    "heroTitle": "قهوتك، الآن",
+    "heroDesc": "حبوب محمّصة بعناية للمهندسين والمبدعين ومن لا يتوقف.",
+    "shopCoffee": "تسوّق القهوة",
+    "chooseYourBrew": "اختر مشروبك",
+    "addToCart": "أضف ←",
+    "hours": "ساعات العمل",
+    "monFri": "الاثنين–الجمعة · ٩ص–٥م",
+    "sat": "السبت · ٩ص–٥م",
+    "contact": "تواصل",
+    "contactWant": "تريد تحميصة مخصوصة؟",
+    "contactInfo": "تواصل معنا على +961 78 943 061 وسنحضرلك دفعة على ذوقك.",
+    "rights": "© 2026 بن ع ذوقك",
+    "cartTitle": "سلة التسوق",
+    "continueShopping": "متابعة التسوق",
+    "emptyCart": "سلتك فارغة",
+    "emptyDesc": "يبدو أنك لم تضف أي قهوة بعد. لنصلح ذلك!",
+    "shopCoffeeBtn": "تسوّق القهوة",
+    "subtotal": "المجموع الفرعي",
+    "payWhatsapp": "ادفع عبر واتساب",
+    "qty": "الكمية",
+    "langToggle": "English",
+    "products": {
+      "Brazilian Medium": {
+        "roast": "تحميص متوسط",
+        "name": "برازيلي متوسط"
+      },
+      "Brazilian Dark": {
+        "roast": "تحميص غامق",
+        "name": "برازيلي غامق"
+      },
+      "Brazilian Light": {
+        "roast": "تحميص خفيف",
+        "name": "برازيلي خفيف"
+      },
+      "Colombian Medium": {
+        "roast": "تحميص متوسط",
+        "name": "كولومبي متوسط"
+      }
+    },
+    "locLabel": "موقعنا",
+    "locTitle": "تجدنا في بيروت",
+    "locDesc": "نحمّص ونعبّئ كل شيء هنا في بيروت. توصيل داخل المدينة أو استلام مباشر.",
+    "locCity": "بيروت، لبنان",
+    "locDelivery": "توصيل واستلام متاحان",
+    "locWaSub": "راسلنا للطلبات والاستفسارات",
+    "locWaBtn": "تحدث معنا على واتساب"
+  }
+}
